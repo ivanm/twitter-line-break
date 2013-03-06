@@ -1,0 +1,17 @@
+{
+	"name": "Fix twitter line breaks",
+	"version": "1.0.2",
+	"description": "A small hack to enhance the line breaks on twitter web",
+	"content_scripts": [
+		{
+			"matches": [ "https://twitter.com/*" ],
+			"css": ["fix.css"]
+		}
+	],
+	"icons": {
+		"128": "icon128.png",
+		"16": "icon16.png",
+		"48": "icon48.png"
+	},
+	"manifest_version": 2
+}
